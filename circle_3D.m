@@ -1,15 +1,7 @@
 function circle_3D(r, M, n)
 
 
-%==============================
-%----------circle_3D-----------
-%==============================
-%Version 1.0 (October 2013)
-%Version 1.1 (December 2014)
-%    * plot3 used instead of scatter3, thanks to Matlab user "Atipong"
-%Andreas Schmid
-% 
-%
+
 %The function  draws a circle into axis with the handle hAxis
 %Input:
 %
