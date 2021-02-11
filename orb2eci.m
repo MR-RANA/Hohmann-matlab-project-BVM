@@ -22,7 +22,6 @@ function [r, v] = orb2eci(mu, oev)
 %  r = eci position vector (kilometers)
 %  v = eci velocity vector (kilometers/second)
 
-% Orbital Mechanics with MATLAB
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
