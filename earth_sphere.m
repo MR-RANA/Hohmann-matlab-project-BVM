@@ -30,9 +30,7 @@ function [xx,yy,zz] = earth_sphere(varargin)
 %      produces the Earth in miles on axis h1 and plots a trajectory from
 %      variables x, y, and z
 
-%   Clay M. Thompson 4-24-1991, CBM 8-21-92.
-%   Will Campbell, 3-30-2010
-%   Copyright 1984-2010 The MathWorks, Inc. 
+
 
 %% Input Handling
 [cax,args,nargs] = axescheck(varargin{:}); % Parse possible Axes input
@@ -92,9 +90,7 @@ if nargout == 0
 
     % Rotate data to be consistent with the Earth-Centered-Earth-Fixed
     % coordinate conventions. X axis goes through the prime meridian.
-    % http://en.wikipedia.org/wiki/Geodetic_system#Earth_Centred_Earth_Fixed_.28ECEF_or_ECF.29_coordinates
-    %
-    % Note that if you plot orbit trajectories in the Earth-Centered-
+  
     % Inertial, the orientation of the contintents will be misleading.
     topo2 = [topo(:,181:360) topo(:,1:180)]; %#ok<NODEF>
     
