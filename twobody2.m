@@ -1,8 +1,5 @@
 function [rf, vf] = twobody2 (mu, tau, ri, vi)
 
-% solve the two body initial value problem
-
-% Shepperd's method
 
 % input
 
@@ -16,7 +13,6 @@ function [rf, vf] = twobody2 (mu, tau, ri, vi)
 %  rf = final eci position vector (kilometers)
 %  vf = final eci velocity vector (kilometers/second)
 
-% Orbital Mechanics with MATLAB
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
