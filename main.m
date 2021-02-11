@@ -1,4 +1,4 @@
-% Name: Samuel Obe
+
 % Project: Geocentric Coplanar Hohmann Transfer Simulation
 
 r_earth = 6378.137; % Equatorial radius of the Earth (km)
