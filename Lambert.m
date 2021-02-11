@@ -1,8 +1,5 @@
 function [V1, V2] = Lambert(R1, R2, t)
-%   This function solves Lambert's problem.
-%   Based on Algorithm 5.2 from Orbital mechanics for engineering students,
-%   2010, by H.D. Curtis 
-%
+
 %   INPUTS: 
 %       R1 = position vector at position 1 (km)
 %       R2 = position vector at position 2 (km)
